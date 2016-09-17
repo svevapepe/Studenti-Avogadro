@@ -1,0 +1,185 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
+
+@font-face {
+	font-family: 'She Always Walk Alone';
+	src: url('SheAlwaysWalkAloneDemo.eot');
+	src: local('She Always Walk Alone Demo'), local('SheAlwaysWalkAloneDemo'),
+		url('SheAlwaysWalkAloneDemo.eot?#iefix') format('embedded-opentype'),
+		url('SheAlwaysWalkAloneDemo.woff') format('woff'),
+		url('SheAlwaysWalkAloneDemo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (max-width: 980px){
+    .head-box{
+        margin:0px;
+    }
+    .body.box {
+        margin:0px;
+    }
+    .head-box .com {
+        visibility: hidden;
+    }
+    .ri-col .col-sm-4 {
+        display:none;
+    }
+}
+@media screen and (max-width:320px){
+    .head-box .img {
+        max-width:100%;
+        height:80px;
+        background: url(/immagini/h-bg.jpg) no-repeat center;
+        text-align:center;
+        z-index:-1;
+        padding: 8% 18%;
+        font-family: 'Tillana';
+        font-size:25px;
+        color: #ededed;
+    }
+}
+@media screen and (max-width: 425px){
+    .head-box .img {
+        max-width:100%;
+        height:100px;
+        background: url(/immagini/h-bg.jpg) no-repeat center;
+        text-align:center;
+        z-index:-1;
+        padding: 9% 18%;
+        font-family: 'Tillana';
+        font-size:1.9em;
+        color: #ededed;
+    }
+}
+@media screen and (min-width:426px){
+    .head-box .img {
+        max-width:100%;
+        height:200px;
+        background: url(/immagini/h-bg.jpg) no-repeat center;
+        text-align:center;
+        z-index:-1;
+        padding: 3% 0;
+        font-family: 'Tillana';
+        font-size:80px;
+        color: #ededed;
+    }
+}
+
+@media screen and (min-width: 981px){
+    .head-box {
+        /*margin: 2% 7%;*/
+    }
+    .col-sm-4,
+    .col-sm-8 {
+        margin-top: 2%;
+    }
+}
+
+
+.head-box .com {
+    font-size:60%;
+    display:inline;
+    margin-left: -20px;
+}
+.col-sm-4 .h4{
+    font-size: 14px;
+}
+.col-sm-4 h4:before {
+    content:"- ";
+    position: absolute;
+    margin-left: -10px;
+}
+.col-sm-4 {
+    padding-left:30px;
+    padding-top: 1.5%;
+}
+.table-scroll{
+    width:auto;
+    overflow-x: auto;
+}
+.b-green{
+    background-color: #4CAF50; /* Green */
+    border: 3px #439347 solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.b-green:focus{
+    background-color: #439347; /* Green */
+}
+.b-blue{
+    background-color: #008CBA; /* Blue */
+    border: 3px #077396 solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.b-blue:focus{
+    background-color: #077396; /* Blue */
+}
+/*--- Articolo ---*/
+.articolo #link{
+    color:#0075e8;
+    text-decoration: none;
+}
+.articolo #link:hover{
+    color: #cf6565;
+    
+}
+.articolo .sub{
+    color: #5a84a2;
+    font-family: 'Montserrat', sans-serif;
+    font-size:11px;
+}
+/*--- END Articolo --*/
+
+/*--- FOOTER ---*/
+
+
+.panel-footer .f-link{
+    font-size:17px;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.f-link:before{
+    content:"[ "
+}
+.f-link:after{
+    content: " ]";
+}
+
+.panel-footer .f-link a{
+    color:#eee;
+    text-decoration: none;
+}
+.panel-footer .f-link a:hover{
+    color: #cf6565;
+    border-bottom: 3px #cf6565 solid;
+    margin-bottom: 2px;
+}
+
+.life {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1em;
+    margin-top:30px;
+    margin-bottom:-20px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+/*--- END FOOTER --*/
